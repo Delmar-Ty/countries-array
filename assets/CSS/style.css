@@ -1,0 +1,16 @@
+.container {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container > fieldset {
+    padding: 5rem;
+}
+
+.container > fieldset > select {
+    margin: 2rem;
+    border-color: black;
+}
